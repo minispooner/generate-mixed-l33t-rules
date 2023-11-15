@@ -6,7 +6,7 @@ This tool generates mixed l33t rules for John the Ripper or Hashcat that result 
 
 # How to Use
 1. Configure the L33t Translation Table in the code to your liking
-2. Run the script to generate your mixed l33t ruleset `python3 generate_mixed_l33t.py`
+2. Run the script to generate your mixed l33t ruleset `python3 generate-mixed-l33t-rules.py`
 3. Copy paste the output ruleset into your john.conf file
 4. Try it out: `john -w:words.txt -rule:mixed_l33t --stdout | sort -u`
 
