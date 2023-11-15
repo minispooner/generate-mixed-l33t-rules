@@ -2,7 +2,7 @@
 Python script to generate a list of mixed l33t rules for John the Ripper or Hashcat.
 
 # Details
-This tool generates mixed l33t rules (example, 3xample, exampl3, 3xampl3), as opposed to the common replace-all l33t rules (example, 3xampl3) that you often come across. The tool can be configured out support custom l33t translations as well (a=>4, s=>$, e=>3, ...). To do so, just alter the default L33t Translations Table to include characters you want translated and to what.
+This tool generates mixed l33t rules for John the Ripper or Hashcat that result in mixed l33t permutations (example, 3xample, exampl3, 3xampl3), as opposed to the common replace-all l33t permutations (example, 3xampl3) that you often come across. Included by default is a L33t Translations Table that holds the configuration for which characters should be replaced. The L33t Translation Table can be altered to support additional or different translations.
 
 # How to Use
 1. [optional] Configure the L33t Translation Table to your liking
