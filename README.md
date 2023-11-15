@@ -1,4 +1,4 @@
-# generate-mixed-l33t-rules
+# Generate Mixed L33t Rules
 Python script to generate a list of mixed l33t rules for John the Ripper and Hashcat.
 
 # Details
