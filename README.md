@@ -12,7 +12,7 @@ I had the need for a mixed l33t rule (3xample), as opposed to the common replace
 
 # Example output
 ```
-[List.Rules:mixed_l33t][List.Rules:mixed_l33t]
+[List.Rules:mixed_l33t]
 /a op[a4] %3s op[s$] %2s op[s$] /s op[s$] %3e op[e3] %2e op[e3] /e op[e3]
 %3a op[a4] %2a op[a4] /a op[a4] %2s op[s$] /s op[s$] /e op[e3]
 %2s op[s$] /s op[s$]
