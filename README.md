@@ -10,7 +10,7 @@ This tool generates mixed l33t rules for John the Ripper or Hashcat that result 
 3. Copy paste the output ruleset into your john.conf file
 4. Try it out: `john -w:words.txt -rule:mixed_l33t --stdout | sort -u`
 
-# Example output
+# Example Output
 ```
 [List.Rules:mixed_l33t]
 /a op[a4] %3s op[s$] %2s op[s$] /s op[s$] %3e op[e3] %2e op[e3] /e op[e3]
