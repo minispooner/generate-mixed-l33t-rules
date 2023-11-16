@@ -1,7 +1,7 @@
 import itertools
 
 # L33t Translation Table
-# Which chars to you want to translate into l33t?
+# Which chars do you want to translate into l33t?
 CHARS = {
     "a": "4",
     "s": "$",
@@ -21,7 +21,7 @@ RULENAME = "[List.Rules:mixed_l33t]"
 
 # Default Rules Templates
 # These basic rules cover most cases for mixed l33t permutations.
-# /char means select first occurrent of char (then permutate based on following rule)
+# /char means select first occurrent of char (then permute based on following rule)
 # op[char_list] means generate multiple permutations by replacing input char with each char in char_list
 # %,num,char means only generate permuration from this rule line if char exists at least num times
 RULES_TEMPLATES = {
