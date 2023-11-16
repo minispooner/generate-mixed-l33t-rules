@@ -46,7 +46,6 @@ for initial_char in CHARS.keys():
     for key in RULES_TEMPLATES.keys():
         rule = CHARS[initial_char][key]
         all_options.append(rule)
-        # print(rule)
 
 
 def strip_dup_char_rules(rules_input):
