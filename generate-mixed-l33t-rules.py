@@ -61,7 +61,7 @@ def strip_dup_char_rules(rules_input):
     return results
 
 
-# Generate every possible combination of rules, 1-rules-long
+# Generate every possible combination of rules
 results = []
 for i in range(0, TOTAL_DIFF_LETTERS):
     combos = list(itertools.combinations(all_options, i + 1))
